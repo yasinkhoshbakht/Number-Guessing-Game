@@ -1,4 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.flex {
+  display: flex;
+}
 ::placeholder {
-  color: red;
   font-weight: 500;
+}
+header {
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  font-family: roboto;
+}
+.userform {
+  width: 100%;
+  height: 25vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(71, 145, 235);
+}
+form {
+  flex-direction: column;
+}
+input {
+  height: 50px;
+  background-color: black;
+  text-align: center;
+  color: red;
+  font-family: Bungee Spice;
+}
+.submit {
+  background-color: blue;
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 30px;
+  font-weight: 700px;
+  border: 0;
+}
+.guide {
+  width: 100%;
+  height: 25vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: green;
+}
+.opportunity {
+  width: 100%;
+  height: 25vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: red;
+}
+.result {
+  width: 100%;
+  height: 25vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: palevioletred;
 }
